@@ -1,0 +1,24 @@
+{
+  "name": "gulp_tut",
+  "version": "1.0.0",
+  "description": "testing gulp",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "testing",
+    "gulp"
+  ],
+  "author": "Chaitya Shah",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-jasmine-browser": "^1.7.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "jasmine": "^2.5.3"
+  }
+}

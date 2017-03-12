@@ -1,0 +1,3 @@
+# ingonre the following files
+node_modules/
+build/
