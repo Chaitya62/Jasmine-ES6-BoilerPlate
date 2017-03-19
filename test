@@ -1,0 +1,8 @@
+#!/bin/sh
+git add .
+git status 
+if [ "$1" = "-m" ]; then 
+	git commit -m "$2"
+fi
+echo "Commited";
+
