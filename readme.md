@@ -31,9 +31,9 @@ Run	`npm test`
 3. Fork the repo and work on a different branch.
 4. Send Pull Request for Code Review.
 
-## Lisence 
+## License 
 
-[MIT Lisence](./LICENSE)
+[MIT License](./LICENSE)
 
 ## Got something to say?
 
