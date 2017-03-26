@@ -6,3 +6,5 @@ let returnsPromise = ()=>{
 	});
 	return p;
 }
+
+export {returnsPromise};

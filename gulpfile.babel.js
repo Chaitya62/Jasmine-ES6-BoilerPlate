@@ -3,11 +3,10 @@ import babel from 'gulp-babel';
 import jasmineBrowser from 'gulp-jasmine-browser';
 import notify from 'gulp-notify';
 import watch from 'gulp-watch';
-
+import jasmine from 'gulp-jasmine';
 
 gulp.task('test',()=>{
-	var testResults = gulp.src(['src/**/*.js','spec/**/*[sS]pec.js'])
-		.pipe(watch(['src/**/*.js','spec/**/*(_.)?[sS]pec.js']))
+	gulp.src(['src/**/*.js','spec/**/*[sS]pec.js'])
 		.pipe(babel({
 			presets: ['es2015']
 		}))
@@ -15,10 +14,12 @@ gulp.task('test',()=>{
 			message: "Error : <%= error.message %>",
 			title: 'Error in JS'
 		}))
-		.pipe(jasmineBrowser.specRunner())
-		.pipe(jasmineBrowser.server({port: 8080}))
 
-		return testResults;
+		.pipe(jasmine());
+		/*.pipe(jasmineBrowser.specRunner())
+		.pipe(jasmineBrowser.server({port: 8080}))*/
+
+		//return testResults;
 			
 		
 });

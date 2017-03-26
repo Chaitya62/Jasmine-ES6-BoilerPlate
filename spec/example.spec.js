@@ -1,3 +1,5 @@
+import {example} from '../src/example';
+
 describe('Example Spec',()=>{
 
 	it('should return  Hello World! ',()=>{

@@ -1,3 +1,5 @@
+import {returnsPromise} from '../src/hn'
+
 describe('Promise',()=>{
 
 	it('should return a promise',()=>{
