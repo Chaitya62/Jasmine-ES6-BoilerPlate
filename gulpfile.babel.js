@@ -15,7 +15,7 @@ gulp.task('test',()=>{
 			title: 'Error in JS'
 		}))
 
-		.pipe(jasmine());
+		.pipe(jasmine({ errorOnFail: true }));
 		/*.pipe(jasmineBrowser.specRunner())
 		.pipe(jasmineBrowser.server({port: 8080}))*/
 

@@ -1,4 +1,5 @@
 # ES6 Jasmine Testing BoilerPlate
+[![Build Status](https://semaphoreci.com/api/v1/chaitya62/jasmine-es6-boilerplate/branches/master/badge.svg)](https://semaphoreci.com/chaitya62/jasmine-es6-boilerplate)
 
 This is a simple boilerplate you can use to make any Ecmascript 6 project using [Jasmine](https://jasmine.github.io/)
 
