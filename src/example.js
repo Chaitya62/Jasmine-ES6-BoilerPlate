@@ -1,5 +1,5 @@
 let example = ()=>{
-	return 'Hello World!';
+	return 'Hell World!';
 };
 
 export {example};
